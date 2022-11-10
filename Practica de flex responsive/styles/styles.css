@@ -1,0 +1,70 @@
+
+body{
+    background-color: #ccc;
+}
+
+.mainContainer{
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2em;
+}
+.column{
+    width: 20%;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+
+.column img{
+    width: 100%;
+}
+
+.imagenProducto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nombreProducto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+.precioProducto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}   
+
+.botonCompra{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonCompra button{
+    width: 100%;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 1em;
+}
+
+@media (max-width: 600px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .column{
+        width:100%;
+        padding: 0 0.5em 0.5em 0;
+        box-sizing: border-box;
+    }
+}

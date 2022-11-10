@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener</title>
+</head>
+
+<body>
+    <form>
+        peso<input type="number" id="inputPeso">
+        altura<input type="number" id="inputAltura">
+        <button id="botonCalculo">Calcular</button>
+
+    </form>
+
+    <script>
+        window.onload = iniciar();
+
+
+
+        function iniciar () {
+            var botonCalculo = document.getElementById('botonCalculo');
+            botonCalculo.addEventListener("click", clickBotonCalculo);
+
+        }
+
+
+        function  clickBotonCalculo () {
+            var peso = document.getElementById('inputPeso').value;
+            var altura = document.getElementById('inputAltura').value;
+
+            peso = parseInt(peso);
+            altura = parseInt(altura);
+
+            var operacion = peso + altura;
+            alert(operacion);
+
+        }
+    </script>
+
+
+</body>
+
+</html>

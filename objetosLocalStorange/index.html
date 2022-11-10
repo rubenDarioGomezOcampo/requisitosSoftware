@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objetoLocalStorange</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <h2>registro de usuarios</h2>
+        </div>
+        <form onsubmit="return saveObject()">
+            <div class="col-12">
+                <label class="form-label">Nombre:</label>
+                <input type="text" id="name" class="form-control">
+                <label class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control">
+                <label class="form-label">Contraseña:</label>
+                <input type="password" id="password" class="form-control mb-2">
+                <input type="submit" value="Registrar" class="form-control mb-5">
+            </div>
+        </form>
+        <div class="container">
+            <h2>Validar Email</h2>
+        </div>
+        <form onsubmit="return validar()">
+            <div class="col-12">
+                <label class="form-label">Email:</label>
+                <input type="email" id="emailValidar" class="form-control">
+                <label class="form-label">Contraseña:</label>
+                <input type="password" id="passwordValidar" class="form-control mb-2">
+                <input type="submit" value="validar" class="form-control">
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

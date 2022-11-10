@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de tiquetes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <form onsubmit="return validate()">
+                <h2>Inscripcion de eventos</h2>
+                <label>Identificacion del evento</label>
+                <input type="text" id="id" placeholder="Id del evento">
+                <label>Nombre del evento</label>
+                <input type="text" id="nameEvent" placeholder="Nombre del evento">
+                <label>Responsable del evento</label>
+                <input type="text" id="responsableEvent" placeholder="Responsable del evento">
+                <label>Precio del ticket</label>
+                <input type="text" id="price" placeholder="Costo de cada ticket sin iva">
+                <label>Cantiad de tickets</label>
+                <input type="text" id="amount" placeholder="Cantidad de tickets a comprar">
+                <label>Telefono</label>
+                <input type="text" id="phone" placeholder="Telefono del contacto">
+                <label>Correo electronico</label>
+                <input type="text" id="email" placeholder="Correo electronico">
+                <input type="submit" value="Confirmar compra" class="botonCompra">
+            </form>
+            <div class="column">
+                <form onsubmit="return verDatos()">
+                    <input type="submit" value="Ver eventos regitrados" class="botonCompra">
+                </form>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

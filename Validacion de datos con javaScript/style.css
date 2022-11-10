@@ -1,0 +1,53 @@
+body {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    ;
+}
+
+.row {
+    width: 45%;
+    height: 45%;
+}
+
+.column label {
+    width: 100%;
+}
+
+.column input {
+    width: 100%;
+}
+
+
+.formulario {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formulario input {
+    width: 100%;
+   
+}
+
+.column {
+    width: 90%;
+}
+
+.boton {
+    width: 90%;
+    height: 10%;
+}
+
+.opciones {
+    width: 100%;
+}

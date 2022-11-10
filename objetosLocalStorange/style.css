@@ -1,0 +1,25 @@
+body {
+    background-color: #ccc;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+input, label {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* .input {
+    width: 100%;
+    margin: 0 auto;
+    border: groove 3px #006400;
+    padding: 2em;
+    background-color: #fff;
+} */
+
+label, input {
+    width: 100%;
+    margin-bottom: 1em;
+}

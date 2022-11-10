@@ -1,0 +1,50 @@
+
+body{
+    background-color: #3E0A6B;
+
+}
+/* Contenerdor principal del formulario con las proiedades de flex box */
+.container{
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 0 10em ;
+    color: #ffffff;
+    background-color: #8E16F7;
+
+}
+/* Agregamos el ancho, padding y el margen inferior y la fuente del texto a las etiquetas del formulario */
+.container input,label {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 1em;
+    font-family: cursive;
+
+}
+/* Se le agrega un redondeo a los inputs y al boton para mayor estilo */
+.container input {
+    border-radius: 5em;
+}
+
+
+/* Se cambia el color del boton y de la letra, se le aumets el tsmsño a la fuente */
+.botonCompra{
+    width: 100%;
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Configuracion para sition en el movil */
+@media (max-width: 600px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .column{
+        width:100%;
+        padding: 0 0.5em 0.5em 0;
+        box-sizing: border-box;
+    }
+}

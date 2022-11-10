@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edades</title>
+</head>
+
+<body>
+
+        <div>
+            ingrese 5 edades <input type="number" id="dato">
+            <button id="boton">agregar</button>
+        </div>
+        <div id="listado">
+
+        </div>
+        <form  onsubmit="return ver()">
+        <input type="submit" id="ver" value="ver">
+        </form>
+
+
+
+
+    <script>
+window.onload =  iniciar();
+
+var edades =[];
+
+function iniciar (){
+var boton = document.getElementById('boton');
+boton.addEventListener("click", agregrar);
+}
+
+function agregrar () {
+    var dato = document.getElementById('dato').value;
+    edades.push(dato);
+    mostrar();
+console.log(edades);
+localStorage.setItem("edades",edades);
+
+}
+
+function mostrar () {
+    var listado = document.getElementById('listado');
+   var html = "";
+   for (dato of edades) {
+    html += dato + "<br/>";
+   }  
+   listado.innerHTML = html;
+}
+
+
+    </script>
+</body>
+
+</html>

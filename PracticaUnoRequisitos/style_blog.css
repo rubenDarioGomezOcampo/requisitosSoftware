@@ -1,0 +1,200 @@
+
+#division {
+font-size: 30px;
+background:springgreen;
+color: whitesmoke;
+font-family: monospace, 'Times New Roman';
+text-align: right;
+border: solid 20px wheat;
+padding: 30px;
+margin-left: 500px;
+margin-top: 10px;
+}
+
+#main{
+  height: auto;
+  width: auto;
+  background: #9fc5e8;
+  margin:auto;
+  padding: 30px;
+  border: 20px solid #234d20;
+}
+
+.p1{
+ color: springgreen;
+ font-size: 30px;
+}
+
+#p2 {
+background:red; color: 
+yellow; font-size: 30px;
+text-align: left;
+border:groove 20px rgb(13, 10, 207);
+padding: 30px;
+margin-right: 320px;
+margin-top: 10px;
+}
+
+.titulo2{
+background: darkslategrey;
+font-family:'Courier New', Courier, monospace;
+color:crimson;
+text-align: center;
+margin: 0PX;
+margin-left: 420PX;
+margin-right: 420PX;
+}
+
+.titulo3{
+  background: darkslategrey;
+  font-family:'Courier New', Courier, monospace;
+  color:crimson;
+  text-align: center;
+  margin: 0PX;
+margin-left: 400PX;
+margin-right: 400PX;
+}
+
+.img1 {
+  border-width: 40px;
+  border-color: darkcyan;
+  border-style: groove none groove groove ;
+  width: 150px ;
+  height: 200px;
+
+}
+
+.img2 {
+  border-width: 40px;
+  border-color: darkcyan;
+  border-style: groove none groove none ;
+  width: 250px ;
+  height: 200px;
+}
+
+.img3 {
+  border-width: 40px;
+  border-color: darkcyan;
+  border-style: groove groove groove none ;
+  width: 150px ;
+  height: 200px;
+}
+
+#v1 {
+  border-width: 20px;
+  border-color: rgb(65, 4, 4);
+  border-style:dashed ;
+  width: 500px ;
+  height: 300px;
+
+}
+#v2 {
+border-width: 20px;
+border-color: rgb(65, 4, 4);
+border-style:dashed ;
+width: 400px ;
+height: 300px;
+}
+#foot1{
+  font-family: monospace; color: darkgreen;
+}
+
+
+#meme5 {
+  border-width: 40px;
+border-color: #427977; 
+border-style: dashed; 
+width: 300px ;
+height: 300px;
+
+}
+
+#rana {
+  border-width: 40px;
+border-color: #44536d;
+border-style:dotted; 
+width: 300px ;
+height: 300px;
+}
+
+#meme1 {
+border-width: 40px;
+border-color: #333e13;
+border-style:double; 
+width: 300px ;
+height: 300px;
+}
+
+#meme2 {
+border-width: 40px;
+border-color: #00533d;
+border-style:groove; 
+ width: 300px ;
+height: 300px;
+}
+
+#meme3 {
+border-width: 40px;
+border-color: #00533d;
+border-style: inset; 
+width: 300px ;
+height: 300px;
+}
+#meme4 {
+  border-width: 40px;
+  border-color:#000000;
+  border-style:dashed; 
+  width: 300px ;
+  height: 300px;
+}
+
+#imagenes {
+  border: 20px solid black;
+background: #9fc5e8;
+}
+
+#boton {
+margin-top: 30px;
+margin-bottom: 30px;
+width: 100px ;
+height: 100px;
+background: rgb(237, 253, 5); 
+color: darkred; 
+}
+
+#memes {
+  font-size: 40px;
+  background:rgb(176, 242, 209);
+  color: rgb(17, 16, 16);
+  font-family: monospace, 'Times New Roman';
+  text-align: center;
+  border: solid 20px wheat;
+  padding: 30px;
+  margin: 0;
+}
+
+#perro {
+margin-left: 100px;
+margin-top: 50px;
+width: 300px;
+height: 300px;
+}
+
+#foot1 {
+  font-size: 30px;
+
+}
+
+#viejo {
+  width: 300px;
+  height: 240px;
+margin-bottom: 0;
+
+}
+
+.tabla {
+  margin : 1em 0 0 30em;
+  width: 50%;
+  height: 50%;
+}
+

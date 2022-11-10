@@ -1,0 +1,51 @@
+body {
+    background-color: #ccc;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.calculator {
+    background-color: #fff; 
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em;
+    border: 1px solid;;
+}
+h1 {
+    width: 100%;
+}
+
+.numero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.numero label, input {
+    width: 100%;
+}
+
+
+.opciones {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.opciones select {
+    width: 100%;
+}
+.button{
+    width: 100%;
+}
+
+.button input {
+    width: 100%;
+}
+

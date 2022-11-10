@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro usuarios</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <script src="styles/javaScript/vali.js"></script>
+
+    <div class="container">
+
+        <form class="container_form" onsubmit="return vali()">
+
+            <label for="nomS">Nombres:</label>
+            <input type="text" name="nom" id="nomS"/>
+
+            <label for="corrS">Correo:</label>
+            <input type="email" name="corr" id="corrS"/>
+
+            <label for="pasS">Contraseña:</label>
+            <input type="password" name="pas" id="pasS"/>
+           
+            <div class="btn_en">
+
+                <input type="submit" value="Enviar"/>
+
+            </div>
+
+        </form>
+        <form onsubmit="return validar()">
+            <label>Mail</label><br>
+            <input type="text" id="mailSolicitado" /><br>
+            <label>Password</label><br>
+            <input type="text" id="passSolicitado" />
+            <input type="submit" value="Validar" />
+        </form>
+
+    </div>
+
+</body>
+</html>
